@@ -10,8 +10,9 @@
 		6744DE2C20615E7800C6E69E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6744DE2B20615E7800C6E69E /* AppDelegate.swift */; };
 		6744DE2E20615E7800C6E69E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6744DE2D20615E7800C6E69E /* ViewController.swift */; };
 		6744DE3120615E7800C6E69E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6744DE2F20615E7800C6E69E /* Main.storyboard */; };
-		6744DE3320615E7800C6E69E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6744DE3220615E7800C6E69E /* Assets.xcassets */; };
 		6744DE3620615E7800C6E69E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6744DE3420615E7800C6E69E /* LaunchScreen.storyboard */; };
+		6744DE3F20615F4A00C6E69E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6744DE3E20615F4A00C6E69E /* Assets.xcassets */; };
+		6744DE41206161BB00C6E69E /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6744DE40206161BB00C6E69E /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +20,10 @@
 		6744DE2B20615E7800C6E69E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6744DE2D20615E7800C6E69E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6744DE3020615E7800C6E69E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6744DE3220615E7800C6E69E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6744DE3520615E7800C6E69E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6744DE3720615E7800C6E69E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6744DE3E20615F4A00C6E69E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6744DE40206161BB00C6E69E /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,10 @@
 				6744DE2B20615E7800C6E69E /* AppDelegate.swift */,
 				6744DE2D20615E7800C6E69E /* ViewController.swift */,
 				6744DE2F20615E7800C6E69E /* Main.storyboard */,
-				6744DE3220615E7800C6E69E /* Assets.xcassets */,
 				6744DE3420615E7800C6E69E /* LaunchScreen.storyboard */,
 				6744DE3720615E7800C6E69E /* Info.plist */,
+				6744DE3E20615F4A00C6E69E /* Assets.xcassets */,
+				6744DE40206161BB00C6E69E /* Colors.swift */,
 			);
 			path = ColorSetup;
 			sourceTree = "<group>";
@@ -124,7 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6744DE3620615E7800C6E69E /* LaunchScreen.storyboard in Resources */,
-				6744DE3320615E7800C6E69E /* Assets.xcassets in Resources */,
+				6744DE3F20615F4A00C6E69E /* Assets.xcassets in Resources */,
 				6744DE3120615E7800C6E69E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6744DE2E20615E7800C6E69E /* ViewController.swift in Sources */,
+				6744DE41206161BB00C6E69E /* Colors.swift in Sources */,
 				6744DE2C20615E7800C6E69E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
